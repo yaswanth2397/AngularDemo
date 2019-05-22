@@ -1,23 +1,73 @@
-<html  ng-app="Myapp">
-    <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
-        <script src="module.js"></script>
-    </head>
- <body>
-   <h1 ng-app>
-       {{1+2}}
-       </h1>
-       <div ng-controller="MyController">
-            <input type="text" ng-model="Data"></input>
-            
-          {{message}}
-          {{Data}}
-       </div>
-       <div ng-controller="Student">
-            FirstName : {{Student.FirstName}}
-            <br>
-            LastName: {{Student.LastName}}
-       </div>
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/app.routing.js"></script>
+    <script src="app/components/home/homecontroller.js"></script>
+    <script src="app/components/home/homeservice.js"></script>
+    <script src="app/components/employee/employeecontroller.js"></script>
+    <script src="app/components/employee/employeeservice.js"></script>
+    <script src="app/components/pmbok/matrixcontroller.js"></script>
+    <script src="app/shared/matrix.js"></script>
+
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/css/mdb.min.css" rel="stylesheet">
+
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/js/mdb.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body ng-app="myApp">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
        
- </body>
- </html>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#!/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!Employee">Employee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!pmbok">Matrix </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+<div ng-view class="maindiv"></div>
+
+
+
+</body>
+</html>

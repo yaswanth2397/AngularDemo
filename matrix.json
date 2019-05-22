@@ -1,0 +1,397 @@
+[
+  {
+    "KnowledgeArea": "1",
+    "KnowledgeAreaName": "Project Integration Management",
+    "ProccessGroup": [
+      {
+        "GroupName": "Initiating",
+        "Processes": [
+          {
+            "ProcessName": "Develop  Project Charter",
+            "ProcessDescription": "A project Charter is developed in this process"
+          }
+        ]
+      },
+      {
+        "GroupName": "Planning",
+        "Processes": [
+          {
+            "ProcessName": "Develop  Project Management Plan",
+            "ProcessDescription": "A project Management plan developed in this process"
+          }
+        ]
+      },
+      {
+        "GroupName": "Executing",
+        "Processes": [
+          {
+            "ProcessName": "Direct and manage Project work",
+            "ProcessDescription": "Deliverables , work performance data, change requests project management plan updates,project document updates "
+          }
+        ]
+      },
+      {
+        "GroupName": "Monitoring and Controlling",
+        "Processes": [
+          {
+            "ProcessName": "Monitor and Control the project work",
+            "ProcessDescription": "change requests project management plan updates,project document updates "
+          },
+          {
+            "ProcessName": "Perform Integrated Change Control",
+            "ProcessDescription": "Approved change requests project management plan updates,project document updates "
+          }
+        ]
+      },
+      {
+        "GroupName": "Closing",
+        "Processes": [
+          {
+            "ProcessName": "Close Project",
+            "ProcessDescription": "Final product , service or result transition organizational process asset updates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "KnowledgeArea": "2",
+    "KnowledgeAreaName": "Project Scope Management",
+    "ProccessGroup": [
+      {
+        "GroupName": "Planning",
+        "Processes": [
+          {
+            "ProcessName": "Plan Scope management",
+            "ProcessDescription": "Scope management plan, requirements management plan"
+          },
+          {
+            "ProcessName": "Collect Requirements ",
+            "ProcessDescription": "Requirements documentation, requirement tracability matrix"
+          },
+          {
+            "ProcessName": "Define Scope",
+            "ProcessDescription": "Poject scope statement, project document updates"
+          },
+          {
+            "ProcessName": "Create WBS",
+            "ProcessDescription": "Scope baseline, project document updates"
+          }
+        ]
+      },
+      {
+        "GroupName": "Monitoring and Controlling",
+        "Processes": [
+          {
+            "ProcessName": "Validate Scope",
+            "ProcessDescription": "Accepted deliverables , change requests , work performance"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "KnowledgeArea": "3",
+    "KnowledgeAreaName": "Project Time Management",
+    "ProccessGroup": [
+      {
+        "GroupName": "Planning",
+        "Processes": [
+          {
+            "ProcessName": "Plan Schedle management",
+            "ProcessDescription": "Schedule management plan"
+          },
+          {
+            "ProcessName": "Define activities",
+            "ProcessDescription": "Activity list , Activiy attributes, milestone list , project management plan updates"
+          },
+          {
+            "ProcessName": "Sequence Activities",
+            "ProcessDescription": "People  schedule network diagrams, project document updates, "
+          },
+          {
+            "ProcessName": "Estimate activity resources ",
+            "ProcessDescription": "Activity resource requirements, resource breakdown structure, project document updates "
+          },
+          {
+            "ProcessName": "Estimate activity durations ",
+            "ProcessDescription": "Activity duration estimates, project document updates "
+          },
+          {
+            "ProcessName": "Develop schedule",
+            "ProcessDescription": "Schedule baseline, schedule data,project calendars & project document updates "
+          }
+        ]
+      },
+      {
+        "GroupName": "Monitoring and Controlling",
+        "Processes": [
+          {
+            "ProcessName": "Control schedule",
+            "ProcessDescription": "work performance information,schedule forecasts, change requests , organizational process asset updates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "KnowledgeArea": "4",
+    "KnowledgeAreaName": "Project Cost Management",
+    "ProccessGroup": [
+      {
+        "GroupName": "Planning",
+        "Processes": [
+          {
+            "ProcessName": "Plan cost management",
+            "ProcessDescription": "cost management plan"
+          },
+          {
+            "ProcessName": "Estimate costs",
+            "ProcessDescription": "Activity cost estimates , basis of estimates, project document updates"
+          },
+          {
+            "ProcessName": "Determine budget",
+            "ProcessDescription": "Cost baseline, project funding requirement, project document updates"
+          }
+        ]
+      },
+      {
+        "GroupName": "Monitoring and Controlling",
+        "Processes": [
+          {
+            "ProcessName": "Control costs",
+            "ProcessDescription": "work performance information,cost forecasts, change requests , organizational process asset updates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "KnowledgeArea": "5",
+    "KnowledgeAreaName": "Project Quality Management",
+    "ProccessGroup": [
+      {
+        "GroupName": "Planning",
+        "Processes": [
+          {
+            "ProcessName": "Plan quality management",
+            "ProcessDescription": "quality management plan, process improvement plan,quality metrics,quality checklist"
+          }
+        ]
+      },
+      {
+        "GroupName": "Executing",
+        "Processes": [
+          {
+            "ProcessName": "Perform quality assurance",
+            "ProcessDescription": "change requests , project management plan updates,organizatioal asset updates"
+          }
+        ]
+      },
+      {
+        "GroupName": "Monitoring and Controlling",
+        "Processes": [
+          {
+            "ProcessName": "Perform quality control",
+            "ProcessDescription": "Quality Control measurements, validated changes, validated deliverables, work perfoemance information"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "KnowledgeArea": "6",
+    "KnowledgeAreaName": "Project Human Resource Management",
+    "ProccessGroup": [
+      {
+        "GroupName": "Planning",
+        "Processes": [
+          {
+            "ProcessName": "Plan Human Resource management",
+            "ProcessDescription": "Human resource management plan"
+          }
+        ]
+      },
+      {
+        "GroupName": "Executing",
+        "Processes": [
+          {
+            "ProcessName": "Acquire project team",
+            "ProcessDescription": "project staff assignments, resource calendars, project management plan updates"
+          },
+          {
+            "ProcessName": "Develop project team",
+            "ProcessDescription": "Test performance assessments, enterprise environmental factors updates"
+          }
+        ]
+      },
+      {
+        "GroupName": "Monitoring and Controlling",
+        "Processes": [
+          {
+            "ProcessName": "Manage project team",
+            "ProcessDescription": "change requests, project management plan updates, project documents updates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "KnowledgeArea": "7",
+    "KnowledgeAreaName": "Project Communications Management",
+    "ProccessGroup": [
+      {
+        "GroupName": "Planning",
+        "Processes": [
+          {
+            "ProcessName": "Plan Communications management",
+            "ProcessDescription": "Communications management plan"
+          }
+        ]
+      },
+      {
+        "GroupName": "Executing",
+        "Processes": [
+          {
+            "ProcessName": "Manage Communications",
+            "ProcessDescription": "project communications, project documents updates , project management plan updates and organizatioal asset updates"
+          }
+        ]
+      },
+      {
+        "GroupName": "Monitoring and Controlling",
+        "Processes": [
+          {
+            "ProcessName": "Manage project team",
+            "ProcessDescription": "work performance integration, change requests, project document updates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "KnowledgeArea": "8",
+    "KnowledgeAreaName": "Project Risk Management",
+    "ProccessGroup": [
+      {
+        "GroupName": "Planning",
+        "Processes": [
+          {
+            "ProcessName": "Plan risk management",
+            "ProcessDescription": "Risk management plan"
+          },
+          {
+            "ProcessName": "Identify Risks",
+            "ProcessDescription": "Risk register"
+          },
+          {
+            "ProcessName": "Perform qualitative risk analysis",
+            "ProcessDescription": "project document updates"
+          },
+          {
+            "ProcessName": "Perform quantitative risk analysis",
+            "ProcessDescription": "project document updates"
+          },
+          {
+            "ProcessName": "Plan risk response",
+            "ProcessDescription": "project masnagement plan updates, project document updates"
+          }
+        ]
+      },
+      {
+        "GroupName": "Monitoring and Controlling",
+        "Processes": [
+          {
+            "ProcessName": "Control Risks",
+            "ProcessDescription": "work performance information, change requests, project document updates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "KnowledgeArea": "9",
+    "KnowledgeAreaName": "Project Procurement  Management",
+    "ProccessGroup": [
+      {
+        "GroupName": "Planning",
+        "Processes": [
+          {
+            "ProcessName": "Plan Procurement management",
+            "ProcessDescription": "Procurement management plan"
+          }
+        ]
+      },
+      {
+        "GroupName": "Executing",
+        "Processes": [
+          {
+            "ProcessName": "Conduct Procurement",
+            "ProcessDescription": "Selected sellers, agreements, resource calendars, change requests"
+          }
+        ]
+      },
+      {
+        "GroupName": "Monitoring and Controlling",
+        "Processes": [
+          {
+            "ProcessName": "Control Procurements",
+            "ProcessDescription": "work performance information, change requests, project document updates"
+          }
+        ]
+      },
+      {
+        "GroupName": "Closing",
+        "Processes": [
+          {
+            "ProcessName": "Close Procurements",
+            "ProcessDescription": "closed procurements, organizational process asset updates"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "KnowledgeArea": "10",
+    "KnowledgeAreaName": "Project Stakeholder Management",
+    "ProccessGroup": [
+      {
+        "GroupName": "initiating",
+        "Processes": [
+          {
+            "ProcessName": "Identify Stakeholders",
+            "ProcessDescription": "Stakeholders register"
+          }
+        ]
+      },
+      {
+        "GroupName": "Planning",
+        "Processes": [
+          {
+            "ProcessName": "Plan stakeholder management",
+            "ProcessDescription": "stakeholder management, plan,  project document updates"
+          }
+        ]
+      },
+      {
+        "GroupName": "Executing",
+        "Processes": [
+          {
+            "ProcessName": "Manage Stakeholder engagement",
+            "ProcessDescription": "issue log, change requests, project management plan updates, project document updates"
+          }
+        ]
+      },
+
+      {
+        "GroupName": "Monitoring and Controlling",
+        "Processes": [
+          {
+            "ProcessName": "Control stakeholder management",
+            "ProcessDescription": "work performance information, change requests, project document updates"
+          }
+        ]
+      }
+    ]
+  }
+]

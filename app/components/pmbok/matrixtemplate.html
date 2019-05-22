@@ -1,0 +1,83 @@
+<div ng-init="description=''"> 
+
+
+
+    <div class="col-lg-12">
+
+        <div class="col-lg-6">
+
+            <select class="form-control" ng-model="selectedGroup"  ng-options="item.KnowledgeAreaName for item in {{details}}">
+                <option value="" disabled selected>Choose a Knowledge Area</option>
+            </select>
+        </div>
+
+
+
+
+
+    </div>
+
+
+   
+
+
+
+    <br>
+
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-lg-2" ng-repeat="n in selectedGroup.ProccessGroup">
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front" ng-style="getcolor(n.GroupName)">
+                            <br>
+                            <h2> {{n.GroupName}} </h1>
+                        </div>
+                        <div class="flip-card-back">
+                            <br>
+                           
+                                   <h2>Proceses</h2>  
+                            <div ng-repeat="process in n.Processes">
+                                <a>
+                                    
+                                    <h6  data-toggle="modal" data-target="#exampleModal2" ng-click="setdescription(process.ProcessDescription)">{{process.ProcessName}}</h6>
+                                </a>
+                                
+                            </div>
+                       
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+       
+
+        <br>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal2"  role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel2">Description</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    
+                    <br>
+                    <p>{{getdescription()}}</p>
+
+    
+                </div>
+            </div>
+        </div>
+    
+
+
+</div>

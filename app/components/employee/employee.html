@@ -1,0 +1,84 @@
+<div ng-controller="empctrl">
+
+   
+
+    <button type="button" class="btn btn-primary" ng-click="add()" data-toggle="modal" data-target="#exampleModal">
+        Add Employee
+    </button>
+
+   
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+            <th>Age</th>
+            <th>Edit</th>
+            <th>Delete</th>
+
+        </tr>
+        <tr ng-repeat="emp in employees | reverse">
+            <td>{{emp.employee_name}}</td>
+            <td>{{emp.employee_salary}}</td>
+            <td>{{emp.employee_age}}</td>
+            <td><button type="button" class="btn btn-primary" ng-click="Edit(emp)"> Edit </button></td>
+            <td>
+                <button type="button" class="btn btn-danger" ng-click="delete(emp)">
+                    Delete
+                </button>
+            </td>
+        </tr>
+
+
+
+    </table>
+
+
+
+   
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal"  role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add/Edit Employee</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form novalidate ng-submit="submitEmployee(emp)">
+                    <div class="modal-body">
+
+
+                        <div class="form-group">
+                            <label for="empName">Employee Name</label>
+                            <input type="text" class="form-control" id="empName" placeholder="Enter Name" ng-model="emp.name">
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="empSalary">Employee Salary</label>
+                            <input type="text" class="form-control" id="empSalary" placeholder="Enter Salary" ng-model="emp.salary">
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="empSalary">Employee Age</label>
+                            <input type="text" class="form-control" id="empSalary" placeholder="Enter Age" ng-model="emp.age">
+
+                        </div>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
